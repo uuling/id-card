@@ -1,0 +1,26 @@
+{
+  "name": "uuling/id-card",
+  "description": "身份证号码验证，兼容18位和15位的新老身份证",
+  "keywords": [
+    "身份证",
+    "id card",
+    "identity",
+    "card"
+  ],
+  "homepage": "https://github.com/uuling/id-card",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "uuling",
+      "homepage": "http://github.com/uuling"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Uuling\\Idcard\\": "src/"
+    }
+  },
+  "require": {
+    "php":">=5.4"
+  }
+}
