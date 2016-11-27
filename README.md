@@ -26,19 +26,19 @@ $identity->isValidate();
 // true 或者 false
 
 // 获取生日，格式YYYY mm dd
-$parser->getBirthday('-');
+$identity->getBirth('-');
 // 2015-01-01
-$parser->getBirthday('/');
+$identity->getBirth('/');
 // 2015/01/01
 
 // 获取性别
-$parser->getGender();
+$identity->getGender();
 // m
-$parser->getGender(Identity::GENDER_CN);
+$identity->getGender(Identity::GENDER_CN);
 // 男
 
 // 获取区域
-$parser->getArea();
+$identity->getArea();
 // ['province' => '***', 'city' => '***', 'county' => '***']
 
 ```

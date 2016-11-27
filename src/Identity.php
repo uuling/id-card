@@ -131,7 +131,7 @@ class Identity implements IdentityInterface
             'day' => substr($this->idNumber, 12, 2),
         ];
 
-        return implode('-', $birth);
+        return implode($delimiter, $birth);
     }
 
     /**
